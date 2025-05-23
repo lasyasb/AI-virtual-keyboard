@@ -23,9 +23,11 @@ The goal is to enable input through natural hand gestures, which can be useful i
 1. Keyboard Layout Model
 
 We define a standard QWERTY layout using a grid of virtual buttons. These buttons are drawn on each video frame using OpenCV’s drawing functions (cv2.rectangle and cv2.putText). Button classes are used to manage their properties.
+
 2. Hand Tracking & Landmark Detection
 
 We use CVZone’s HandTrackingModule, which internally relies on MediaPipe to detect hand landmarks. The system identifies the 21 3D coordinates of hand joints in real time.
+
 3. Click Detection
 
 To simulate a keypress:
