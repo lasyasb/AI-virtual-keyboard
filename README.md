@@ -1,4 +1,3 @@
-AI Virtual Keyboard
 
 This is a project made by Lasya Sadubugga as part of an exploration into gesture-controlled input systems using computer vision and Python.
 
